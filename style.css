@@ -71,6 +71,16 @@ body, html{
     color: #FA5F1D;
 }
 
+.hov:hover{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    box-shadow:   -8px -7px 7px rgb(255 255 255 / 60%),
+      6px 7px 15px rgb(0 0 0 / 20%);
+}
 .btn1{
     grid-row: 3/4;
 }
