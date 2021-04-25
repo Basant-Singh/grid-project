@@ -48,9 +48,11 @@ body, html{
     inset -3px -3px 5px rgba(0, 0, 0, 0.2),
     inset 3px 3px 8px rgba(255, 255, 255, 0.8);
 }
-
+.fa-chevron-right{
+    transition: transform .3s ease-in-out;
+}
 .fa-chevron-right:hover{
-    color: red;
+    transform: scale(1.3);
     cursor:pointer;
 }
 .btn{
