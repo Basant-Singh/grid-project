@@ -49,6 +49,9 @@ body, html{
     inset 3px 3px 8px rgba(255, 255, 255, 0.8);
 }
 
+.fa-chevron-right:hover{
+    cursor:pointer;
+}
 .btn{
     width: 2.5em;
     opacity: 0.4;
