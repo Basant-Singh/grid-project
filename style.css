@@ -76,7 +76,9 @@ body, html{
     font-weight: bold;
     color: #FA5F1D;
 }
-
+.hov{
+    transition: all ease-in-out .3s;
+}
 .hov:hover{
      display: flex;
     justify-content: center;
